@@ -1,0 +1,35 @@
+$roman-font: 'Avenir LT Std Roman';
+$book-font: 'Avenir LT Std Book';
+$light-font: 'Avenir LT Std Light';
+$medium-font: 'Avenir LT Std Medium';
+
+$fuente: $book-font !default;
+
+@mixin font {
+    font-family: $fuente;
+}
+
+
+@font-face {
+    font-family: $light-font;
+    src: url("../assets/inaltec-fonts/AvenirLTStd-Light.otf") format('opentype');
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: $roman-font;
+    src: url("../assets/inaltec-fonts/AvenirLTStd-Roman.otf") format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $book-font;
+    src: url("../assets/inaltec-fonts/AvenirLTStd-Book.otf") format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $medium-font;
+    src: url("../assets/inaltec-fonts/AvenirLTStd-Medium.otf") format('opentype');
+    font-style: normal;
+}
